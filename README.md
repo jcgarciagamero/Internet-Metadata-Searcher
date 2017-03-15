@@ -2,15 +2,15 @@
 
 Este script funciona con googler y exiftool, para poder utilizarlo, primero tendrás que tenerlo instalado:
 
-- Instalación de googler:
-sudo add-apt-repository ppa:twodopeshaggy/jarun
-sudo apt-get update
-sudo apt-get install googler
+- Instalación de googler: </br>
+sudo add-apt-repository ppa:twodopeshaggy/jarun </br>
+sudo apt-get update </br>
+sudo apt-get install googler </br>
 
-- Instalación exiftool:
-sudo apt-get install exiftool
+- Instalación exiftool: </br>
+sudo apt-get install exiftool </br>
 
-- Una vez hecho esto, haz lo siguiente:
+- Una vez hecho esto, haz lo siguiente: </br>
 
 1º Extrae los scripts en una carpeta </br>
 2º Da permisos de ejecución al script IMS.sh (sudo chmod +x script.sh)</br>
