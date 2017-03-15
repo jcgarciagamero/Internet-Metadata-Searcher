@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Lince Metadata 1.0
+#Internet Metadata Searcher
 #Author: José C. García Gamero.
 #Date: 2017-03-15
 #E-Mail: josecarlos@whatinformatica.com
