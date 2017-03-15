@@ -12,8 +12,8 @@ sudo apt-get install exiftool
 
 - Una vez hecho esto, haz lo siguiente:
 
-1º Extrae los scripts en una carpeta
-2º Da permisos de ejecución al script IMS.sh (sudo chmod +x script.sh)
-3º Dentro de la carpeta donde has extraido los script ejecuta el script IMS.sh (./IMS.sh)
+1º Extrae los scripts en una carpeta </br>
+2º Da permisos de ejecución al script IMS.sh (sudo chmod +x script.sh)</br>
+3º Dentro de la carpeta donde has extraido los script ejecuta el script IMS.sh (./IMS.sh)</br>
 
 Sólo necesitas seguir los pasos e indicar al script, lo que quieres hacer.
