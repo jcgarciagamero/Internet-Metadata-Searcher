@@ -63,5 +63,17 @@ eleccion=$(zenity --width=480 --height=320 --list --title "Metadatos extraidos c
 						zenity --title="Directorios" --text-info --filename="directorios.txt"
 
 						fi
+				fi
+				zenity --question \
+				--text="¿Desde realizar algo más?"
+				respuesta=$(echo $?)
+				
+				if [ $respuesta = 1 ]; then
+
+				exit
+
+				else ./options.sh
 
 				fi 
+
+exit
