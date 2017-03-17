@@ -7,21 +7,21 @@
 
 sudo chmod +x ./options.sh
 
-numero=$(zenity --width=480 --height=320 --entry --entry-text="1,2,3..." --text="Seleccione el número de resultados que quiere obtener")
+numero=$(zenity --title "Internet Metadata Searcher" --width=480 --height=320 --entry --entry-text="1,2,3..." --text="Seleccione el número de resultados que quiere obtener")
 	var1=$(echo $?)
 
 	if [ $var1 = 1 ]; then
 
 		exit
 
-	else url=$(zenity --width=480 --height=320 --entry --entry-text="site.com" --text="Introduzca la URL")
+	else url=$(zenity --title "Internet Metadata Searcher" --width=480 --height=320 --entry --entry-text="site.com" --text="Introduzca la URL")
 		var2=$(echo $?)
 
 		 if [ $var2 = 1 ]; then
 
 		 exit
 
-		 	else tipo=$(zenity --width=480 --height=320 --entry --entry-text="pdf jpg doc" --text="Introduzca el tipo de fichero")
+		 	else tipo=$(zenity --title "Internet Metadata Searcher" --width=480 --height=320 --entry --entry-text="pdf jpg doc" --text="Introduzca el tipo de fichero")
 			var3=$(echo $?)
 
 				if [ $var3 = 1 ]; then
