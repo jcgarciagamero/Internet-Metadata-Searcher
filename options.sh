@@ -3,7 +3,7 @@
 #Internet Metadata Searcher
 #Author: José C. García Gamero.
 #Date: 2017-03-15
-#E-Mail: josecarlos@whatinformatica.com
+#E-Mail: josecarlos@ims4c.com
 
 eleccion=$(zenity --width=480 --height=320 --list --title "Metadatos extraidos con éxito" --column Descripción "Todos los metadatos" "Usuarios" "Software" "Directorios")
 					respuesta=$(echo $?)
