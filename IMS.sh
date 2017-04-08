@@ -55,7 +55,7 @@ numero=$(zenity --title "Internet Metadata Searcher" --width=480 --height=320 --
 					rm -r archivo.txt archivo1.txt fichero.txt fichero2.txt fichero3.txt fichero4.txt
 
 					zenity --info \
-					--text="Estrayendo metadatos"
+					--text="Extrayendo metadatos"
 
 					exiftool analist/* > metadatos.txt
 
